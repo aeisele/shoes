@@ -7,7 +7,7 @@ public class Solution2 {
         if (A % K == 0) {
             return (B - A) / K + 1;
         }
-        return (B - (A - A % K)) / 2;
+        return (B - (A - A % K)) / K;
     }
 
     public static void main(String[] args) {
